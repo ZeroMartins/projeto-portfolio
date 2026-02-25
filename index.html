@@ -12,11 +12,11 @@
     <header>
         <nav id="menu">
             <ul>
-                <li><a href="#"><i class="fa-solid fa-house-chimney"></i></a></li>
-                <li><a href="#"><i class="fa-solid fa-brain"></i></a></li>
-                <li><a href="#"><i class="fa-solid fa-graduation-cap"></i></a></li>
-                <li><a href="#"><i class="fa-solid fa-folder-open"></i></a></li>
-                <li><a href="#"><i class="fa-solid fa-moon"></i></a></li>
+                <li><a href="#video" class="link"><i class="fa-solid fa-house-chimney"></i></a></li>
+                <li><a href="#skills" class="link"><i class="fa-solid fa-brain"></i></a></li>
+                <li><a href="#formacao" class="link"><i class="fa-solid fa-graduation-cap"></i></a></li>
+                <li><a href="#projetos" class="link"><i class="fa-solid fa-folder-open"></i></a></li>
+                <li><a href="#" id="botao-tema"><i class="fa-solid fa-moon"></i></a></li>
             </ul>
         </nav>
     </header>
@@ -53,7 +53,7 @@
                 <h2><i class="fa-solid fa-brain"></i> Minhas skills</h2>
 
                 <div id="skill-container">
-                    <div class="item">
+                    <div class="item"> <!-- Skill 1-->
                         <div class="info">
                             <span class="nome">
                                <i class="fa-solid fa-code"></i> HTML5
@@ -67,7 +67,7 @@
                         </div>
                     </div>
 
-                    <div class="item">
+                    <div class="item"> <!-- Skill 2 -->
                         <div class="info">
                             <span class="nome">
                                <i class="fa-solid fa-code"></i> CSS3
@@ -81,7 +81,7 @@
                         </div>
                     </div>
 
-                    <div class="item">
+                    <div class="item"> <!-- Skill 3-->
                         <div class="info">
                             <span class="nome">
                                <i class="fa-solid fa-code"></i> JavaScript
@@ -95,7 +95,7 @@
                         </div>
                     </div>
 
-                    <div class="item">
+                    <div class="item"> <!-- Skill 4 -->
                         <div class="info">
                             <span class="nome">
                                <i class="fa-solid fa-users"></i> Trabalho em Equipe
@@ -109,7 +109,7 @@
                         </div>
                     </div>
 
-                    <div class="item">
+                    <div class="item"> <!-- Skill 5-->
                         <div class="info">
                             <span class="nome">
                                <i class="fa-solid fa-user-check"></i> Adaptalidade
@@ -127,17 +127,74 @@
 
             <article id="formacao">
                 <h2><i class="fa-solid fa-graduation-cap"></i> Formação</h2>
+
+                <div id="formacao-container">
+                    <div class="curso">
+                        <p class="periodo">
+                            2025 - Atual
+                        </p>
+                        <h3 class="instituicao">Grupo Anchieta</h3>
+                        <p class="titulacao">Técnico em Desenvolvimento de Sistemas</p>
+                    </div>
+                </div>
             </article> <!-- Fim article#formacao -->
 
             <article id="projetos">
                 <h2><i class="fa-solid fa-folder-open"></i> Projetos</h2>
+
+                <div id="projeto-container">
+                   <div class="projeto"> <!-- Projeto 01 -->
+                        <img src="imagens/projeto-android.png" alt="Projeto 1" class="foto">
+                        <div class="projeto-info">
+                            <p class="periodo">
+                                2024
+                            </p>
+                            <h3 class="titulo">Projeto Android</h3>
+                            <p>Projeto construído com HTML e CSS para treinar conteúdos e imagens dinâmicas.</p>
+                            <details class="descricao">
+                                <summary>Saiba mais....</summary>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos voluptates reiciendis optio, cumque illum asperiores totam, soluta laborum, quidem accusamus sed nesciunt non cupiditate eius eos dolores voluptate mollitia dolor.</p>
+                            </details>
+                        </div>
+                   </div> 
+
+                    <div class="projeto"> <!-- Projeto 02 -->
+                        <img src="imagens/projeto-cordel.png" alt="Projeto 1" class="foto">
+                        <div class="projeto-info">
+                            <p class="periodo">
+                                2024
+                            </p>
+                            <h3 class="titulo">Projeto Cordel</h3>
+                            <p>Projeto construído para treinar efeito paralax em imagens.</p>
+                            <details class="descricao">
+                                <summary>Saiba mais....</summary>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos voluptates reiciendis optio, cumque illum asperiores totam, soluta laborum, quidem accusamus sed nesciunt non cupiditate eius eos dolores voluptate mollitia dolor.</p>
+                            </details>
+                        </div>
+                   </div>
+
+                    <div class="projeto"> <!-- Projeto 03 -->
+                        <img src="imagens/projeto-pizza.png" alt="Projeto 1" class="foto">
+                        <div class="projeto-info">
+                            <p class="periodo">
+                                2025
+                            </p>
+                            <h3 class="titulo">Projeto Site</h3>
+                            <p>Projeto construído com HTML e CSS.</p>
+                            <details class="descricao">
+                                <summary>Saiba mais....</summary>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos voluptates reiciendis optio, cumque illum asperiores totam, soluta laborum, quidem accusamus sed nesciunt non cupiditate eius eos dolores voluptate mollitia dolor.</p>
+                            </details>
+                        </div>
+                   </div>
+                </div>
             </article> <!-- Fim article#projetos -->
               
         </section>
     </main>
     
     <footer>
-
+        Portfólio desenvolvido por <a href="https://github.com/ZeroMartins" target="_blank">Aloisio Martins</a> em 2026
     </footer>
 
     <script src="scripts/script.js"></script>
