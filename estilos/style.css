@@ -18,7 +18,7 @@
   --texto: #222222;
   --texto-inverso: #ffffff;
   --destaque: #0077ff;
-  --destaque-inverso: #66bbff;
+  --destaque-inverso: #004be0;
   --fundo-card: #ffffff;
 }
 
@@ -32,11 +32,11 @@ body {
 
 body.escuro {
   --fundo-principal: #222222;
-  --texto: #e0e0e0;
-  --texto-inverso: #333333;
-  --destaque: #ae57ff;
-  --destaque-inverso: #7eeaff;
-  --fundo-card: #444444;  
+  --texto: #ffffff;
+  --texto-inverso: #f1de92;
+  --destaque: #353cbd;
+  --destaque-inverso: #027bfc;
+  --fundo-card: #060505;  
 }
 
 header {
