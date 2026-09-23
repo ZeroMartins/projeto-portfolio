@@ -1,2 +1,3 @@
 # projeto portfolio
-Projeto final do Curso em Vídeo de HTML e CSS
+
+Portfolio com o objetivo de mostrar meus projetos realizados 
